@@ -296,3 +296,52 @@ body {
   padding-left: 32px;
   background-color: #303d47;
 }
+.star img {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
+.ava1 {
+  border: 1px solid rgb(7, 235, 109);
+  border-radius: 50%;
+  width: 130px;
+  padding: 50px;
+  height: 130px;
+  background: url(../source/img/woman4.jpg) no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  background-size: 100%;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.ava2 {
+  border: 1px solid rgb(7, 235, 109);
+  border-radius: 50%;
+  width: 130px;
+  padding: 50px;
+  height: 130px;
+  background: url(../source/img/man4.jpg) no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  background-size: 100%;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.ts {
+  text-align: start;
+}
+.brdr {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: rgb(32, 33, 37);
+  margin: 20px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-right: 5px;
+}
