@@ -5,6 +5,29 @@ body {
   color: rgb(255, 254, 254);
   z-index: 1;
 }
+.canetm img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.iconmapsearch img {
+  width: 35px;
+  height: 35px;
+  padding-left: 3px;
+}
+.icontime img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 6px;
+}
+.icontel img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.ord3 {
+  font-size: 20px;
+}
 .text-color {
   color: #fbfbfb;
   opacity: 0.7;
@@ -15,6 +38,13 @@ body {
 }
 .navbar-toggler {
   background-color: aqua;
+}
+
+@media (max-width: 1200px) {
+  .mm {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
 }
 @media (min-width: 1070px) {
   .carousel-item {
@@ -56,6 +86,10 @@ body {
     font-size: 26px !important;
     font-weight: bold;
   }
+  .contacts h5 {
+    font-size: 26px !important;
+    font-weight: bold;
+  }
   .opa07 h5 {
     font-size: 30px !important;
   }
@@ -65,6 +99,24 @@ body {
   .block3 h4 {
     font-size: 18px;
     font-weight: bold;
+  }
+  .ord1 {
+    order: 1;
+  }
+  .ord2 {
+    order: 2;
+    padding-left: 10px;
+  }
+  .ord3 {
+    order: 3;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1000px) {
+  .canetm {
+    font-size: 17px !important;
   }
 }
 @media (min-width: 900px) {
@@ -87,6 +139,10 @@ body {
   font-weight: bold;
 }
 @media (max-width: 767px) {
+  .text-color {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
   .platext2,
   .platext {
     border-top-left-radius: 0px !important;
@@ -113,6 +169,17 @@ body {
   }
   .about2 {
     order: 1;
+  }
+  .icons1,
+  .icons2,
+  .icons3 {
+    width: 80px !important;
+    padding: 25px !important;
+    height: 80px !important;
+    background-size: 55%;
+  }
+  .blockicon .p22 {
+    font-size: 14px;
   }
 }
 
@@ -145,6 +212,12 @@ body {
   padding: 0.2em;
 }
 .about1 h5 {
+  font-size: 48px;
+  font-weight: bold;
+  max-width: 100%;
+  padding: 0.2em;
+}
+.contacts h5 {
   font-size: 48px;
   font-weight: bold;
   max-width: 100%;
@@ -283,6 +356,9 @@ body {
   font-size: 18px;
   color: cadetblue;
 }
+.canetm {
+  font-size: 20px;
+}
 .canet {
   font-size: 20px;
 }
@@ -344,4 +420,43 @@ body {
   padding-left: 10px;
   padding-bottom: 2px;
   padding-right: 5px;
+}
+/* ACCORDEON  */
+.accordion-item {
+  background-color: rgb(32, 33, 37);
+  color: aliceblue;
+  border: 0;
+}
+.accordion {
+  --bs-accordion-bg: #303d47;
+  --bs-accordion-btn-color: #ffffff;
+  --bs-accordion-active-color: #ffffff;
+  --bs-accordion-active-bg: #303d47;
+  --bs-accordion-border-width: none;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0rem rgba(13, 110, 253, 0.25);
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.accordion-body {
+  text-align: start;
+}
+.accordion-button {
+  font-size: 25px;
+  height: 100px;
+  margin-top: 20px;
+  border-top-left-radius: 12px !important;
+  border-bottom-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+}
+@media (max-width: 767px) {
+  .accordion-button {
+    font-size: 20px;
+  }
+}
+.accord {
+  padding-bottom: 50px;
+}
+.contacts .p222 {
+  font-size: 22px;
 }
